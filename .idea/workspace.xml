@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c39e121-ac6f-4727-b1ee-3fc65f415e96" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/potw4/blackboardApi.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/potw4/blackboardApi_test.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/potw4/in.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/potw5/snakeWordSearch.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/potw5/snakeWordSearch_test.go" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/potw4/blackboardApi.go" afterPath="$PROJECT_DIR$/potw4/blackboardApi.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,35 +19,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="blackboardApi.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/potw4/blackboardApi.go">
+      <file leaf-file-name="snakeWordSearch.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/potw5/snakeWordSearch.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+            <state relative-caret-position="302">
+              <caret line="169" column="1" lean-forward="true" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="1" />
               <folding>
-                <element signature="e#122#139#0" expanded="true" />
+                <element signature="e#126#177#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="in.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/potw4/in.txt">
+      <file leaf-file-name="snakeWordSearch_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/potw5/snakeWordSearch_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blackboardApi_test.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/potw4/blackboardApi_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="416">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
-                <element signature="e#14#30#0" expanded="true" />
+                <element signature="e#14#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,6 +67,8 @@
         <option value="$PROJECT_DIR$/blah/blackboardApi.go" />
         <option value="$PROJECT_DIR$/potw4/blackboardApi_test.go" />
         <option value="$PROJECT_DIR$/potw4/blackboardApi.go" />
+        <option value="$PROJECT_DIR$/potw5/snakeWordSearch_test.go" />
+        <option value="$PROJECT_DIR$/potw5/snakeWordSearch.go" />
       </list>
     </option>
   </component>
@@ -111,7 +103,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,17 +113,18 @@
             <path>
               <item name="POTW" type="b2602c69:ProjectViewProjectNode" />
               <item name="POTW" type="462c0819:PsiDirectoryNode" />
-              <item name="potw3" type="462c0819:PsiDirectoryNode" />
+              <item name="potw4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="POTW" type="b2602c69:ProjectViewProjectNode" />
               <item name="POTW" type="462c0819:PsiDirectoryNode" />
-              <item name="potw4" type="462c0819:PsiDirectoryNode" />
+              <item name="potw5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build blackboardApi.go">
+  <component name="RunManager" selected="Go Test.TestCase1 in snakeWordSearch_test.go">
     <configuration name="go build blackboardApi.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="POTW" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -168,23 +160,22 @@
       <filePath value="$PROJECT_DIR$/potw4/blackboardApi.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="TestCase3 in blackboardApi_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="go build snakeWordSearch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="POTW" />
-      <working_directory value="$PROJECT_DIR$/potw4" />
+      <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="POTW/potw4" />
-      <pattern value="^TestCase3$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/potw5/snakeWordSearch.go" />
+      <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="TestCase4 in blackboardApi_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="TestCase1 in snakeWordSearch_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="POTW" />
-      <working_directory value="$PROJECT_DIR$/potw4" />
+      <working_directory value="$PROJECT_DIR$/potw5" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="POTW/potw4" />
-      <pattern value="^TestCase4$" />
+      <package value="POTW/potw5" />
+      <pattern value="^TestCase1$" />
     </configuration>
     <configuration name="TestCase5_detectCycle in blackboardApi_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="POTW" />
@@ -204,19 +195,19 @@
       <package value="POTW/potw4" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.TestCase3 in blackboardApi_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.TestCase4 in blackboardApi_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.go test POTW/potw4" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.TestCase5_detectCycle in blackboardApi_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build blackboardApi.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.go test POTW/potw4" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestCase5_detectCycle in blackboardApi_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build blackboardApi.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build snakeWordSearch.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestCase1 in snakeWordSearch_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build blackboardApi.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.go test POTW/potw4" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestCase5_detectCycle in blackboardApi_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.TestCase4 in blackboardApi_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.TestCase3 in blackboardApi_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestCase1 in snakeWordSearch_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build snakeWordSearch.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build blackboardApi.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.go test POTW/potw4" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestCase5_detectCycle in blackboardApi_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -224,51 +215,51 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCase4_in_blackboardApi_test_go - 2017.12.03 at 17h 47m 20s.xml">
-      <configuration name="TestCase4 in blackboardApi_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCase1_in_snakeWordSearch_test_go - 2017.12.05 at 00h 04m 42s.xml">
+      <configuration name="TestCase1 in snakeWordSearch_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCase5_detectCycle_in_blackboardApi_test_go - 2017.12.03 at 17h 45m 33s.xml">
-      <configuration name="TestCase5_detectCycle in blackboardApi_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCase1_in_snakeWordSearch_test_go - 2017.12.05 at 00h 04m 56s.xml">
+      <configuration name="TestCase1 in snakeWordSearch_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCase5_detectCycle_in_blackboardApi_test_go - 2017.12.03 at 17h 45m 38s.xml">
-      <configuration name="TestCase5_detectCycle in blackboardApi_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCase1_in_snakeWordSearch_test_go - 2017.12.05 at 00h 05m 02s.xml">
+      <configuration name="TestCase1 in snakeWordSearch_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCase5_detectCycle_in_blackboardApi_test_go - 2017.12.03 at 17h 47m 10s.xml">
-      <configuration name="TestCase5_detectCycle in blackboardApi_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCase1_in_snakeWordSearch_test_go - 2017.12.05 at 00h 05m 06s.xml">
+      <configuration name="TestCase1 in snakeWordSearch_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCase5_detectCycle_in_blackboardApi_test_go - 2017.12.03 at 17h 48m 21s.xml">
-      <configuration name="TestCase5_detectCycle in blackboardApi_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCase1_in_snakeWordSearch_test_go - 2017.12.05 at 00h 06m 57s.xml">
+      <configuration name="TestCase1 in snakeWordSearch_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCase5_detectCycle_in_blackboardApi_test_go - 2017.12.03 at 17h 48m 27s.xml">
-      <configuration name="TestCase5_detectCycle in blackboardApi_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCase1_in_snakeWordSearch_test_go - 2017.12.05 at 00h 07m 06s.xml">
+      <configuration name="TestCase1 in snakeWordSearch_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCase5_detectCycle_in_blackboardApi_test_go - 2017.12.03 at 17h 49m 13s.xml">
-      <configuration name="TestCase5_detectCycle in blackboardApi_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCase1_in_snakeWordSearch_test_go - 2017.12.05 at 00h 07m 12s.xml">
+      <configuration name="TestCase1 in snakeWordSearch_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCase5_detectCycle_in_blackboardApi_test_go - 2017.12.03 at 17h 49m 29s.xml">
-      <configuration name="TestCase5_detectCycle in blackboardApi_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCase1_in_snakeWordSearch_test_go - 2017.12.05 at 00h 07m 45s.xml">
+      <configuration name="TestCase1 in snakeWordSearch_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_POTW_potw4 - 2017.12.03 at 17h 44m 43s.xml">
-      <configuration name="go test POTW/potw4" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCase1_in_snakeWordSearch_test_go - 2017.12.05 at 00h 16m 53s.xml">
+      <configuration name="TestCase1 in snakeWordSearch_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_POTW_potw4 - 2017.12.03 at 17h 49m 35s.xml">
-      <configuration name="go test POTW/potw4" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestCase1_in_snakeWordSearch_test_go - 2017.12.05 at 00h 17m 02s.xml">
+      <configuration name="TestCase1 in snakeWordSearch_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19509594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3967742" sideWeight="0.50319827" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33655915" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41935483" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39739415" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3967742" sideWeight="0.4968017" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -278,6 +269,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3967742" sideWeight="0.50319827" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41935483" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19509594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3967742" sideWeight="0.4968017" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -287,19 +298,40 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="52" />
+      <option name="time" value="79" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blah/blackboardApi.go">
+    <entry file="file://$PROJECT_DIR$/potw4/blackboardApi.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="2193">
+          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <element signature="e#122#139#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potw4/blackboardApi_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#30#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potw4/in.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blah/blackboardApi.go" />
     <entry file="file://$PROJECT_DIR$/potw4/in.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -313,19 +345,12 @@
         <state relative-caret-position="238">
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
-            <element signature="e#14#30#0" expanded="true" />
+            <element signature="e#14#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blah/blackboardApi.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/blah/blackboardApi.go" />
     <entry file="file://$PROJECT_DIR$/potw4/in.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -339,19 +364,12 @@
         <state relative-caret-position="221">
           <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
-            <element signature="e#14#30#0" expanded="true" />
+            <element signature="e#14#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blah/blackboardApi.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/blah/blackboardApi.go" />
     <entry file="file://$PROJECT_DIR$/potw4/in.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -365,19 +383,12 @@
         <state relative-caret-position="221">
           <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
-            <element signature="e#14#30#0" expanded="true" />
+            <element signature="e#14#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blah/blackboardApi.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/blah/blackboardApi.go" />
     <entry file="file://$PROJECT_DIR$/potw4/in.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -391,7 +402,7 @@
         <state relative-caret-position="221">
           <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding>
-            <element signature="e#14#30#0" expanded="true" />
+            <element signature="e#14#30#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -411,13 +422,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/potw4/random.go" />
-    <entry file="file://$PROJECT_DIR$/../testing/testing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="745" column="0" lean-forward="false" selection-start-line="745" selection-start-column="0" selection-end-line="745" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../runtime/proc.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -425,39 +429,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blah/blackboardApi.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/potw4/blackboardApi_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/potw4/blackboardApi.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding>
-            <element signature="e#122#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/blah/blackboardApi.go" />
     <entry file="file://$PROJECT_DIR$/potw4/in.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potw4/blackboardApi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="e#122#139#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potw4/blackboardApi_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="578" column="0" lean-forward="false" selection-start-line="578" selection-start-column="0" selection-end-line="578" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="710" column="0" lean-forward="false" selection-start-line="710" selection-start-column="0" selection-end-line="710" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="139" column="25" lean-forward="true" selection-start-line="139" selection-start-column="25" selection-end-line="139" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../sort/sort.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="218" column="19" lean-forward="true" selection-start-line="218" selection-start-column="19" selection-end-line="218" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potw5/snakeWordSearch_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/potw5/snakeWordSearch.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="169" column="1" lean-forward="true" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="1" />
+          <folding>
+            <element signature="e#126#177#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

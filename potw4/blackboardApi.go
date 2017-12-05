@@ -117,7 +117,6 @@ func addDependents(courses map[int]bool, graph map[int][]int) {
 	}
 }
 
-
 func dfs(curr int, courses map[int]bool, graph map[int][]int) {
 	courses[curr] = true
 	children := graph[curr]
