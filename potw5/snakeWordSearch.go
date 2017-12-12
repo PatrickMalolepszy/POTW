@@ -100,7 +100,7 @@ func findSnakeWords(wordSearch [][]byte, trie *trieNode) []string {
 			for k := range visited {
 				visited[k] = make([]bool, len(wordSearch[0]))
 			}
-			dfs(i, j, wordSearch, visited, trie, &foundWords, make([]byte, 0, 20))
+			dfs(i, j, wordSearch, visited, trie, &foundWords, make([]byte, 0, 100))
 		}
 	}
 	keySet := make([]string, 0, len(foundWords))
@@ -129,18 +129,28 @@ func dfs(x, y int, wordSearch [][]byte, visited [][]bool, trie *trieNode, foundW
 		(*foundWords)[string(curr)] = true
 	}
 
+	// copy not reference of visted nodes.
 	if x+1 < len(wordSearch) {
-		dfs(x+1, y, wordSearch, visited, trie, foundWords, curr)
+		dfs(x+1, y, wordSearch, copy2dArray(visited), trie, foundWords, curr)
 	}
 	if x-1 >= 0 {
-		dfs(x-1, y, wordSearch, visited, trie, foundWords, curr)
+		dfs(x-1, y, wordSearch, copy2dArray(visited), trie, foundWords, curr)
 	}
 	if y+1 < len(wordSearch[x]) {
-		dfs(x, y+1, wordSearch, visited, trie, foundWords, curr)
+		dfs(x, y+1, wordSearch, copy2dArray(visited), trie, foundWords, curr)
 	}
 	if y-1 >= 0 {
-		dfs(x, y-1, wordSearch, visited, trie, foundWords, curr)
+		dfs(x, y-1, wordSearch, copy2dArray(visited), trie, foundWords, curr)
 	}
+}
+
+func copy2dArray(a [][]bool) [][]bool {
+	newA := make([][]bool, len(a))
+	for i := range a {
+		newA[i] = make([]bool, len(a[i]))
+		copy(a[i], newA[i])
+	}
+	return newA
 }
 
 // defining a sort function which does not take capitals into account
